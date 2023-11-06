@@ -1,5 +1,5 @@
 // Criação de variáveis necessárias
-let xp = 150000
+let xp = 4300
 let nivel = ""
 let nome = "Hulk"
 
@@ -24,3 +24,15 @@ if(xp <= 1000){
 
 // Apresentação da mensagem final
 console.log("O herói de nome " + nome + " está no nível " + nivel + " com " + xp + " pontos.")
+console.log("_____")
+
+// Coletar estrelinhas para multiplicar ao fim da fase
+let valorEstrelinhas = 5
+let estrelinhasColetadas = 30
+let pontosExtrasEstrelinhas = valorEstrelinhas * estrelinhasColetadas
+let pontuacaoFinalFase = pontosExtrasEstrelinhas + xp
+
+console.log("Durante a fase, " + nome + 
+            "coletou " + estrelinhasColetadas + " estrelinhas e somou mais " + 
+            pontosExtrasEstrelinhas + ". Agora ele possui " + pontuacaoFinalFase + " pontos."
+            )
