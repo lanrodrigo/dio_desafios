@@ -22,4 +22,5 @@ if(xp <= 1000){
     nivel = "Radiante"
 }
 
+// Apresentação da mensagem final
 console.log("O herói de nome " + nome + " está no nível " + nivel + " com " + xp + " pontos.")
