@@ -33,6 +33,6 @@ let pontosExtrasEstrelinhas = valorEstrelinhas * estrelinhasColetadas
 let pontuacaoFinalFase = pontosExtrasEstrelinhas + xp
 
 console.log("Durante a fase, " + nome + 
-            "coletou " + estrelinhasColetadas + " estrelinhas e somou mais " + 
+            " coletou " + estrelinhasColetadas + " estrelinhas e somou mais " + 
             pontosExtrasEstrelinhas + ". Agora ele possui " + pontuacaoFinalFase + " pontos."
             )
