@@ -23,13 +23,13 @@ function nivelHeroi(saldo){
     return nivel
 }
 
-
-
 // Criação de variáveis
 let vitorias = 101
 let derrotas = 20
 let saldo = saldoDeVitorias(vitorias, derrotas)
 let nivelDoHeroi = nivelHeroi(saldo)
+
+// Apreseentação do resultado
 console.log(`O herói tem um saldo de ${saldo} e está no nível ${nivelDoHeroi}`)
 
 
